@@ -1,0 +1,7 @@
+var line : String?
+repeat {
+    line = readLine()
+    if line != nil {
+        print("You typed: '\(line!)'")
+    }
+} while line != nil
