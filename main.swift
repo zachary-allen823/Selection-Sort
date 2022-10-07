@@ -14,7 +14,7 @@ var words : [String] = []
 
 var line : String?
 repeat {
-    print("Enter the name of a vegetable, or ^D to quit: ", terminator:"")
+
     line = readLine()
     if line != nil {
         words.append(line!)
@@ -40,7 +40,7 @@ func swap(integers: inout [String], i:Int, j:Int) {
 
 for i in 0..<array.count {
     
-    print("Pass: \(pass), Swaps: \(swaps)/\(totalSwaps), Array: \(array)")
+
     var minIndex = i
     swaps = 0
     for j in i + 1..<array.count {
